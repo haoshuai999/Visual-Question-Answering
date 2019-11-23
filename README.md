@@ -1,0 +1,2 @@
+# Visual Question Answering
+I train a deep learning model using 16,000 images in the COCO image dataset. 4,000 more images are used for validation and 4,000 of them are used for testing. The model consists of a vision part using the InceptionV3 model and a LSTM language model. The two parts are concatenated together to make predictions. But this CNN + LSTM model's accuracy is only about 52%.
